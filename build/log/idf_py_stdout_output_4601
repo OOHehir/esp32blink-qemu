@@ -1,0 +1,52 @@
+entry 0x40080640
+[0;32mI (745) boot: ESP-IDF v5.3-beta1-105-g3f632df143 2nd stage bootloader[0m
+[0;32mI (747) boot: compile time Jul  4 2024 20:42:51[0m
+[0;32mI (748) boot: Multicore bootloader[0m
+[0;32mI (785) boot: chip revision: v3.0[0m
+[0;32mI (792) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (792) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (793) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (806) boot: Enabling RNG early entropy source...[0m
+[0;32mI (819) boot: Partition Table:[0m
+[0;32mI (819) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (820) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (820) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (820) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (827) boot: End of partition table[0m
+[0;32mI (836) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c7ch ( 40060) map[0m
+[0;32mI (861) esp_image: segment 1: paddr=00019ca4 vaddr=3ffb0000 size=02258h (  8792) load[0m
+[0;32mI (881) esp_image: segment 2: paddr=0001bf04 vaddr=40080000 size=04114h ( 16660) load[0m
+[0;32mI (905) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14980h ( 84352) map[0m
+[0;32mI (935) esp_image: segment 4: paddr=000349a8 vaddr=40084114 size=080b8h ( 32952) load[0m
+[0;32mI (958) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (959) boot: Disabling RNG early entropy source...[0m
+[0;32mI (971) cpu_start: Multicore app[0m
+[0;32mI (1641) cpu_start: Pro cpu start user code[0m
+[0;32mI (1643) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1643) app_init: Application information:[0m
+[0;32mI (1643) app_init: Project name:     blink[0m
+[0;32mI (1643) app_init: App version:      1[0m
+[0;32mI (1644) app_init: Compile time:     Jul  4 2024 20:42:44[0m
+[0;32mI (1644) app_init: ELF file SHA256:  ee140a7a6...[0m
+[0;32mI (1644) app_init: ESP-IDF:          v5.3-beta1-105-g3f632df143[0m
+[0;32mI (1644) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (1645) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (1645) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (1647) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1649) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (1649) heap_init: At 3FFB2B20 len 0002D4E0 (181 KiB): DRAM[0m
+[0;32mI (1649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (1650) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (1650) heap_init: At 4008C1CC len 00013E34 (79 KiB): IRAM[0m
+[0;32mI (1713) spi_flash: detected chip: winbond[0m
+[0;32mI (1719) spi_flash: flash io: dio[0m
+[0;32mI (1740) main_task: Started on CPU0[0m
+[0;32mI (1750) main_task: Calling app_main()[0m
+[0;32mI (1750) example: Example configured to blink GPIO LED![0m
+[0;32mI (1750) gpio: GPIO[5]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (1750) example: Turning the LED OFF![0m
+[0;32mI (2750) example: Turning the LED ON![0m
+[0;32mI (3750) example: Turning the LED OFF![0m
+[0;32mI (4750) example: Turning the LED ON![0m
+[0;32mI (5750) example: Turning the LED OFF![0m
+[0;32mI (6750) example: Turning the LED ON![0m
