@@ -6,3 +6,4 @@
 /sdkconfig.defaults.esp32s2
 /sdkconfig.defaults.esp32s3
 /sdkconfig.old
+build/*
